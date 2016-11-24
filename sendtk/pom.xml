@@ -4,11 +4,11 @@
 
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.sendtk</groupId>
-	<artifactId>sendtk</artifactId>
-	<name>sendtk</name>
+	<artifactId>opmhit</artifactId>
+	<name>opmhit</name>
 	<packaging>war</packaging>
 	<version>1.x</version>
-			
+
 	<properties>
 		<java-version>1.8</java-version>
 		<org.springframework-version>4.0.2.RELEASE</org.springframework-version>
@@ -17,7 +17,7 @@
 		<hibernate.version>4.3.5.Final</hibernate.version>
 		<spring.security.version>4.0.0.RELEASE</spring.security.version>
 		<wildfly-hostname>192.168.1.205</wildfly-hostname>
-		<wildfly-port>9990</wildfly-port>		
+		<wildfly-port>9990</wildfly-port>
 		<wildfly-username>mouadfly</wildfly-username>
 		<wildfly-password>root@1988</wildfly-password>
 		

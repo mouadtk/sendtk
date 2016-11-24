@@ -33,11 +33,12 @@
                         <i class="user-img icons-faces-users-03"></i>
                         <form class="form-signin"  role="form" method="post" action ="${pageContext.request.contextPath}/Auth/Validate">
                             <div class="append-icon">
-                                <input type="text" name="username" id="username" class="form-control form-white username" placeholder="Username" required>
+                                <input type="text" name="username" id="username" class="form-control form-white username" 
+                                	placeholder="Username" required>
                                 <i class="icon-user"></i>
                             </div> 
-                            <div class="append-icon m-b-20">
-                                <input type="password" name="password" class="form-white password" placeholder="Password" required>
+                            <div class="append-icon ">
+                                <input type="password" name="password" id="password" class="form-control form-white password" placeholder="Password" required>
                                 <i class="icon-lock"></i>
                             </div>
                             <button type="submit" id="submit" class="btn btn-lg btn-danger btn-block ladda-button" data-style="expand-left">Sign In</button>
@@ -51,7 +52,6 @@
             <p class="account-copyright">
                 <span>Copyright © 2015 </span><span>TKSoft</span>.<span>All rights reserved.</span>
             </p>
-            
         </div> 
         <script src="${pageContext.request.contextPath}/assets/global/plugins/jquery/jquery-1.11.1.min.js"></script>
         <script src="${pageContext.request.contextPath}/assets/global/plugins/jquery/jquery-migrate-1.2.1.min.js"></script>

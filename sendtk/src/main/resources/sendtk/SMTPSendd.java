@@ -31,11 +31,9 @@ public class SMTPSendd{
 	
 	HashMap<String, Session> SessionList =  new HashMap<String, Session>();
 	
-	public SMTPSendd(Campaign    CMP, List<Server> Serv){
-		
+	public SMTPSendd(Campaign    CMP, List<Server> Serv){		
 		this.Camp = CMP;
-		setSessions(Serv);
-		
+		setSessions(Serv);		
 	}
 	
 	private void setSessions( List<Server> Servers) {

@@ -40,6 +40,7 @@ public class AppConfig extends  WebMvcConfigurerAdapter{
 	@Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/assets/**").addResourceLocations("/resources/assets/");
+        registry.addResourceHandler("/sendtk/assets/**").addResourceLocations("/resources/assets/");
     }
     
 	
